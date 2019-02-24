@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+
+
+*{
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif ;
+    color: rgb(31, 31, 31);
+}
+
+html,body{
+    margin: 0;
+    padding: 0; 
+
+}
+
+.header {
+    background-image: url("images/colorful-triangles-background_yB0qTG6_dyJop8X.jpg");
+    background-size: cover;
+    padding-bottom: 70px;
+}
+
+.nav ul{
+    margin: 0;
+    max-width: 300px;
+}
+
+.nav li{
+    display: inline;   
+}
+
+.nav a{
+    
+    margin-top: 20px;
+    display: inline-block;
+    color: rgb(255, 199, 147);
+    text-decoration: none;
+}
+
+.main-nav{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;   
+}
+
+.nav-home {
+    position: absolute;
+    left: 20px;
+    top: 0;
+}
+
+.nav-login {
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.nav a:hover{
+    background-color: rgb(255, 255, 255, .2);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-section-image {
+    float: left;
+    width: 300px;
+ 
+
+}
+
+.main-section-text {
+    width: 800px;
+    margin-top: 150px;
+    font-size: 2em;
+    font-weight: lighter;
+    color:rgba(255, 130, 13, 0.705);
+}
+
+.main-footer {
+    position: absolute ;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-image: url("images/colorful-triangles-background_yB0qTG6_dyJop8X.jpg");
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 0;
+}
+
+.login-section-div {
+    width: 50%;
+}
+
+.login-section-image {
+    width: 300px;
+}
